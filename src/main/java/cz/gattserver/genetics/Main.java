@@ -19,6 +19,7 @@ public class Main {
 			items[i] = new Item(Integer.parseInt(tuples[i * 2]), Integer.parseInt(tuples[i * 2 + 1]));
 
 		System.out.println("Items: " + items.length);
+		System.out.println("Max weight: " + maxWeight);
 
 		// Nové maximum:
 		new Genetic().solve(items, maxWeight);
