@@ -19,7 +19,7 @@ public class BruteForce implements Solver {
 						+ Utils.formatNumber(solution.getBits(), items.length) + ") price: " + solution.getPrice()
 						+ " weight: " + solution.getWeight() + " ");
 			} else {
-				System.out.print(".");
+				// System.out.print(".");
 			}
 		}
 

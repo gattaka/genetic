@@ -35,7 +35,7 @@ public class Genetic implements Solver {
 			creatures[i] = creature;
 		}
 
-		for (int g = 0; g < generations; g++) {
+		for (int g = 1; g <= generations; g++) {
 			System.out.println("Generation " + g);
 
 			solution = sortAndEvaluate(solution, creatures, items, maxWeight);
